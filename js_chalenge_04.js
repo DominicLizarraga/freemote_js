@@ -2,11 +2,10 @@
 
 // ex multiplyNumbers(2, 5) returns 10
 var multiplyNumbers = function(num1, num2) {
-    // both argunments come as number
+    // both arguments come as number
     var sum = 0;
-    var i = 0
-    for(num = num1; i < num2; i++) {
-        sum += num
+    for(let i =0; num1; i < num1; i++) {
+        sum += num2
         
     }
     return sum
