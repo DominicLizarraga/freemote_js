@@ -13,3 +13,16 @@ var multiplyNumbers = function(num1, num2) {
 
 console.log(multiplyNumbers(5, 0))
 console.log(multiplyNumbers(5, 10))
+
+
+// while loop way
+var multiplyNumbers = function(num1, num2) {
+    var sum = 0;
+    while(num1--) {
+        sum += num2
+    }
+    return sum
+}
+
+console.log(multiplyNumbers(5, 0))
+console.log(multiplyNumbers(5, 10))
