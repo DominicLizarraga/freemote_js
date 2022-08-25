@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="tab-selector.js"></script>
+    <style>
+        .container {
+            width: 80%;
+            height: 50%;
+            margin: 0 auto;
+            border: 1px solid grey;
+        }
+
+        .selector {
+            display: flex;
+            /* padding: 10px; */
+            border-bottom: 1px solid grey;
+            background-color: #f1f1f1;
+        }
+
+        .content {
+            padding: 10px;
+        }
+
+        .tab {
+            padding: 10px;
+        }
+
+        .tab:hover {
+            cursor: pointer;
+            background-color: gray;
+        }
+
+        .content-body {
+            display: none;
+        }
+
+        .show-active {
+            display: block;
+        }
+
+        .tab-active {
+            background-color: darkgray;
+        }
+
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="selector">
+            <div class="tab tab-active">
+                Shirts
+            </div>
+            <div class="tab">
+                Pants
+            </div>
+            <div class="tab">
+                Shoes
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="Shirts" class="content-body show-active">
+                <h4>Shirts</h4>
+                <p>Tailor made shirts. 👕 </p>
+            </div>
+            <div id="Pants" class="content-body">
+                <h4>Pants</h4>
+                <p>Best quality on trousers. 👖</p>
+            </div>
+            <div id="Shoes" class="content-body">
+                <h4>Shoes</h4>
+                <p>No competition 👞</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
